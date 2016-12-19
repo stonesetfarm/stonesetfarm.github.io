@@ -21,7 +21,8 @@ url: "https://stonesetfarm.github.io" # the base hostname & protocol for your si
 instagram_username: nerutenbeck
 twitter_username: nerutenbeck
 github_username: nerutenbeck 
-
+linkedin_username: nerutenbeck
+facebook_username: stonesetfarm
 # Build settings
 markdown: kramdown
 theme: minima

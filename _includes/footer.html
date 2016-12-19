@@ -1,0 +1,43 @@
+<footer class="site-footer"> 
+<div class="wrapper"> 
+    <div class="footer-col footer-col-1"> 
+        <address class="vcard"> 
+            <span class="fn org"> Stoneset Farm </span> 
+            <span class="adr"> 
+                <span class="street-address"> 261 River Road </span> 
+                <span class="locality">Brooklin</span>, 
+                <abbr class="region" title="Maine">ME</abbr>&nbsp; 
+                <span class="postal-code">04616</span> 
+                <span class="country-name">USA</span> 
+            </span> 
+        </address> 
+    </div> 
+
+    <div class="footer-col footer-col-2"> 
+        <ul class="telephone-list"> 
+            <li>Farm: <a href="tel:+12073595513">207.359.5513</a></li>
+            <li>Nathan: <a href="tel:+12076649581">207.664.9581</a></li> 
+            <li>Clara: <a href="tel:+12076692460">207.669.2460</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-col footer-col-3">
+        <ul class="social-media-list">
+            {% if site.github_username %}
+            <li>{% include icon-github.html username=site.github_username %}</li>
+            {% endif %}
+            
+            {% if site.twitter_username %}
+            <li>{% include icon-twitter.html username=site.twitter_username %}</li>
+            {% endif %}
+            
+            {% if site.instagram_username %}
+            <li> <a href="https://instagram.com/{{ site.instagram_username }}">
+                    <i class="fa fa-instagram"></i> {{site.instagram_username}} </a>
+            </li>
+            {% endif %}
+        </ul>
+    </div>
+</div>
+Powered by <a href="http://jekyllrb.com/">jekyll</a>
+</footer>
