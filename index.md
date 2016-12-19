@@ -2,8 +2,10 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: default 
 ---
-
-
-Test markdown
+> “We have lived our lives by the assumption that what was good for us would be
+> good for the world. We have been wrong. We must change our lives so that it
+> will be possible to live by the contrary assumption, that what is good for the
+> world will be good for us. And that requires that we make the effort to know
+> the world and learn what is good for it.” - Wendell Berry
