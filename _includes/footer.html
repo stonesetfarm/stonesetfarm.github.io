@@ -1,43 +1,57 @@
 <footer class="site-footer"> 
-<div class="wrapper"> 
-    <div class="footer-col footer-col-1"> 
-        <address class="vcard"> 
-            <span class="fn org"> Stoneset Farm </span> 
-            <span class="adr"> 
-                <span class="street-address"> 261 River Road </span> 
-                <span class="locality">Brooklin</span>, 
-                <abbr class="region" title="Maine">ME</abbr>&nbsp; 
-                <span class="postal-code">04616</span> 
-                <span class="country-name">USA</span> 
-            </span> 
-        </address> 
-    </div> 
 
-    <div class="footer-col footer-col-2"> 
+<div class="wrapper"> 
+
+    <div class="address">
+        <address class="vcard"> 
+            Stoneset Farm 261 River Road Brooklin, 
+            <abbr class="region" title="Maine">ME</abbr> 04616
+        </address>
+    </div>
+
+    <div class="telephone"> 
         <ul class="telephone-list"> 
-            <li>Farm: <a href="tel:+12073595513">207.359.5513</a></li>
-            <li>Nathan: <a href="tel:+12076649581">207.664.9581</a></li> 
-            <li>Clara: <a href="tel:+12076692460">207.669.2460</a></li>
+            <li>Farm: <a href="tel:+12073595513">207.359.5513</a></li>&nbsp;
+            <li>Nathan: <a href="tel:+12076649581">207.664.9581</a></li>&nbsp; 
+            <li>Clara: <a href="tel:+12076692460">207.669.2460</a></li>&nbsp;
         </ul>
     </div>
 
-    <div class="footer-col footer-col-3">
+    <div class="social-media">
         <ul class="social-media-list">
-            {% if site.github_username %}
-            <li>{% include icon-github.html username=site.github_username %}</li>
-            {% endif %}
-            
-            {% if site.twitter_username %}
-            <li>{% include icon-twitter.html username=site.twitter_username %}</li>
-            {% endif %}
-            
-            {% if site.instagram_username %}
-            <li> <a href="https://instagram.com/{{ site.instagram_username }}">
-                    <i class="fa fa-instagram"></i> {{site.instagram_username}} </a>
+            <li> 
+                <a href="https://facebook.com/stonesetfarm">
+                    <i class="fa fa-facebook"></i> stonesetfarm </a>&nbsp;
             </li>
-            {% endif %}
+
+            <li>  <a href="https://github.com/nerutenbeck">
+                    <i class="fa fa-github"></i> nerutenbeck </a>&nbsp;
+            </li>
+
+            <li>
+                <a
+                       href="https://www.linkedin.com/in/nathan-rutenbeck-42166624">
+                    <i class="fa fa-linkedin"></i> nerutenbeck </a>&nbsp;
+            </li>
+
+            <li><a href="https://twitter.com/nerutenbeck">
+                    <i class="fa fa-twitter"></i> nerutenbeck </a>&nbsp;
+            </li>
+
+            <li> <a href="https://instagram.com/nerutenbeck">
+                    <i class="fa fa-instagram"></i> nerutenbeck </a>&nbsp;
+            </li>
+
+            <li>
+                <a href="https://instagram.com/blueberrymama">
+                    <i class="fa fa-instagram"></i> cerutenbeck </a>&nbsp;
+            </li>
         </ul>
+    </div>
+
+    <div class="credits">
+        -powered by <a href="http://jekyllrb.com/">jekyll</a> and 
+        <a href="https://pages.github.com/">github pages</a>-
     </div>
 </div>
-Powered by <a href="http://jekyllrb.com/">jekyll</a>
 </footer>

@@ -25,7 +25,9 @@ linkedin_username: nerutenbeck
 facebook_username: stonesetfarm
 # Build settings
 markdown: kramdown
-theme: minima
+sass: 
+sass_dir: _sass
+style: compressed
 gems:
   - jekyll-feed
 exclude:

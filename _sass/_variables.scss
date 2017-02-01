@@ -1,0 +1,31 @@
+/* === Typography === */
+@import
+url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Philosopher);
+
+$doc-font-size              : 16;
+$body-font                  : Gentium Book Basic, serif;
+$body-font-weight           : normal;
+$site-title-font            : Philosopher, sans serif;
+$site-title-size            : 80px;
+$site-nav-font-size         : 24px;
+
+/* Colors === */
+$gray                       : #7a8288;
+$dark-gray                  : mix(#000, $gray, 40%);
+$darker-gray                : mix(#000, $gray, 60%);
+$light-gray                 : mix(#fff, $gray, 50%);
+$lighter-gray               : mix(#fff, $gray, 90%);
+
+$masthead-background        : url("../assets/images/bbfield.jpg");
+$site-title-color           : #020126;
+$site-nav-font-color        : $site-title-color;
+$site-nav-background-color  : #e9efc6;
+$body-color                 : #fff;
+$background-color           : #fff;
+$code-background-color      : #fafafa;
+$code-background-color-dark : $light-gray;
+$text-color                 : $dark-gray;
+$border-color               : $lighter-gray;
+$footer-background-color    : $darker-gray;
+$footer-text-color          : #fff;
+

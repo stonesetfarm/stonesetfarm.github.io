@@ -1,0 +1,74 @@
+// Base styles //
+a {
+    text-decoration: none;
+    a:focus,
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+body {
+    font-family: $body-font;
+    font-weight: $body-font-weight;
+}
+
+
+.content {
+    padding: 1em;
+    width: 100%;
+}
+
+// Navigation //
+
+.site-nav {
+}
+
+.masthead {
+    position: relative;
+    background: url("../assets/images/bbfield.jpg");
+    background-size: 100%; 
+}
+
+.site-title {
+    font-family: $site-title-font;
+    font-size: $site-title-size;
+    color: $site-title-color;
+    text-decoration: none;
+    background-color: none;
+    padding: 1em;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.wrapper {
+}
+
+.trigger {
+}
+
+.site-nav {
+
+    width: 100%;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #dddddd;
+    }
+
+    li a {
+        text-decoration: none;
+        font-size: site-nav-font-size;
+        color: $site-nav-font-color;
+        padding: 8px;
+        display: block;
+        float: left;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+}
+
