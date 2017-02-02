@@ -5,10 +5,10 @@ a {
 }
 
 body {
-    font-family: $body-font;
-    font-weight: $body-font-weight;
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 // Masthead //
@@ -54,8 +54,20 @@ body {
 
 // Body //
 
-.content {
+.page-content {
+    font-family: $page-content-font;
+    font-weight: $page-content-font-weight;
     padding: 2em;
+
+    .center {
+        text-align: center;
+    }
+}
+
+.home-content {
+    font-family: $home-content-font;
+    font-size: $home-content-font-size;
+    line-height: 50px;
 }
 
 // Footer //

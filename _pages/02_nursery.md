@@ -1,7 +1,8 @@
 ---
 title: Nursery
-layout: default
+layout: page
 permalink: /nursery/
+bgimage: /assets/images/seedlings.jpg
 ---
 
 We produce annual seedlings each spring. If you have an interest in special

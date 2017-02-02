@@ -1,7 +1,8 @@
 ---
 title: Family
-layout: default
+layout: page
 permalink: /family/
+bgimage: ../assets/images/wagon.jpg
 ---
 
 Stoneset Farm is the home to the Rutenbeck Family - Clara, Eleanor, Margaret,

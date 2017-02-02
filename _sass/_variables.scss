@@ -3,11 +3,13 @@
 url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Philosopher);
 
 $doc-font-size              : 16;
-$body-font                  : Gentium Book Basic, serif;
-$body-font-weight           : normal;
 $site-title-font            : Philosopher, sans serif;
 $site-title-size            : 80px;
 $site-nav-font-size         : 24px;
+$home-content-font          : Gentium Book Basic, serif;
+$home-content-font-size     : 40px;
+$page-content-font          : $home-content-font;
+$page-content-font-weight   : normal;
 
 /* Colors === */
 $gray                       : #7a8288;
@@ -17,6 +19,9 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $masthead-background        : url("../assets/images/bbfield.jpg");
+$nursery-background         : url("../assets/images/seedlings.jpg");
+$music-background           : url("../assets/images/fiddle.jpg");
+$goats-background           : url("../assets/images/kid.jpg");
 $site-title-color           : #020126;
 $site-nav-font-color        : $site-title-color;
 $site-nav-background-color  : #dddddd;
