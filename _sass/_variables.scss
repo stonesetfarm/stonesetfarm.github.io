@@ -19,13 +19,13 @@ $lighter-gray               : mix(#fff, $gray, 90%);
 $masthead-background        : url("../assets/images/bbfield.jpg");
 $site-title-color           : #020126;
 $site-nav-font-color        : $site-title-color;
-$site-nav-background-color  : #e9efc6;
+$site-nav-background-color  : #dddddd;
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
-$footer-background-color    : $darker-gray;
-$footer-text-color          : #fff;
+$footer-background-color    : $site-nav-background-color;
+$footer-text-color          : $text-color;
 

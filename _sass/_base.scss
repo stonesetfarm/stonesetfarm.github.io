@@ -1,27 +1,22 @@
 // Base styles //
 a {
     text-decoration: none;
-    a:focus,
-    &:hover {
-        text-decoration: underline;
-    }
+    color: $text-color;
 }
 
 body {
     font-family: $body-font;
     font-weight: $body-font-weight;
+    margin: 0;
+    padding: 0;
 }
-
 
 .content {
     padding: 1em;
     width: 100%;
 }
 
-// Navigation //
-
-.site-nav {
-}
+// Masthead //
 
 .masthead {
     position: relative;
@@ -36,10 +31,32 @@ body {
     text-decoration: none;
     background-color: none;
     padding: 1em;
-    &:hover {
+}
+
+// Navigation //
+
+.site-nav {
+    width: 100%;
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: $site-nav-background-color;
+    }
+
+    li a {
         text-decoration: none;
+        font-size: $site-nav-font-size;
+        color: $site-nav-font-color;
+        padding: 8px;
+        display: block;
+        float: left;
     }
 }
+
+
+// footer //
 
 .wrapper {
 }
@@ -47,28 +64,17 @@ body {
 .trigger {
 }
 
-.site-nav {
-
+.site-footer {
     width: 100%;
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #dddddd;
-    }
-
-    li a {
-        text-decoration: none;
-        font-size: site-nav-font-size;
-        color: $site-nav-font-color;
-        padding: 8px;
-        display: block;
-        float: left;
-    }
-
-    li a:hover {
-        background-color: #111;
+    margin-left: 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    color: $footer-text-color;
+    background-color: $footer-background-color;
+    li {
+        display: inline;
     }
 }
 

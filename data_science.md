@@ -1,6 +1,6 @@
 ---
 title: Data Science
-style: default
+layout: default
 permalink: /data_science/
 ---
 
