@@ -17,13 +17,14 @@ title: Stoneset Farm
 email: nerutenbeck@gmail.com
 description: Stoneset Farm is the home of the Rutenbeck family and our many projects. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stonesetfarm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://stonesetfarm.com" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: nerutenbeck
 twitter_username: nerutenbeck
 github_username: nerutenbeck 
 linkedin_username: nerutenbeck
 facebook_username: stonesetfarm
 # Build settings
+include: ["_pages"]
 markdown: kramdown
 sass: 
   sass_dir: _sass

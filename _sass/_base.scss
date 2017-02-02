@@ -11,11 +11,6 @@ body {
     padding: 0;
 }
 
-.content {
-    padding: 1em;
-    width: 100%;
-}
-
 // Masthead //
 
 .masthead {
@@ -45,24 +40,25 @@ body {
         background-color: $site-nav-background-color;
     }
 
-    li a {
+    li {
+        display: inline;
+    }
+
+    a {
         text-decoration: none;
         font-size: $site-nav-font-size;
         color: $site-nav-font-color;
         padding: 8px;
-        display: block;
-        float: left;
     }
 }
 
+// Body //
 
-// footer //
-
-.wrapper {
+.content {
+    padding: 2em;
 }
 
-.trigger {
-}
+// Footer //
 
 .site-footer {
     width: 100%;
