@@ -30,9 +30,9 @@ a {
 }
 
 body{
+    min-height: 100%;
+    height: auto !important;
     margin: 0 auto -200px;
-    height: 100%;
-    padding: 0;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
@@ -97,10 +97,6 @@ body{
     font-family: $page-content-font;
     font-weight: $page-content-font-weight;
     padding: 2em;
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -200px;
 
     .center {
         text-align: center;
