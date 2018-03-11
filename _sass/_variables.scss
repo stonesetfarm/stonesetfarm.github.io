@@ -1,3 +1,8 @@
+/* === Screen Sizes === */
+
+$break-small: 320px;
+$break-large: 1200px;
+
 /* === Typography === */
 @import
 url(https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Philosopher);
@@ -11,7 +16,7 @@ $home-content-font-size     : 40px;
 $page-content-font          : $home-content-font;
 $page-content-font-weight   : normal;
 
-/* Colors === */
+/* === Colors === */
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
