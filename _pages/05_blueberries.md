@@ -2,7 +2,6 @@
 title: Blueberries
 layout: page
 permalink: /blueberries/
-bgimage: ../assets/images/blueberries.jpg
 ---
 
 We have lots of wild blueberries at the farm. Currently we don't sell them

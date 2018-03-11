@@ -2,7 +2,6 @@
 title: Garden
 layout: page
 permalink: /garden/
-bgimage: ../assets/images/cabbage.jpg
 ---
 
 We do a lot at Stoneset Farm, and some years when things are good, we even

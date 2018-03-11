@@ -1,7 +1,9 @@
 /* === Screen Sizes === */
 
-$break-small: 320px;
-$break-large: 1200px;
+$break-portrait: 320px;
+$break-landscape: 321px; 
+$break-tablet-portrait: 768px;
+$break-large: 900px;
 
 /* === Typography === */
 @import
@@ -23,13 +25,14 @@ $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
-$masthead-background        : url("../assets/images/bbfield.jpg");
-$nursery-background         : url("../assets/images/seedlings.jpg");
-$music-background           : url("../assets/images/fiddle.jpg");
-$goats-background           : url("../assets/images/kid.jpg");
+$logo                  : url("../assets/images/logo.gif");
 $site-title-color           : #020126;
 $site-nav-font-color        : $site-title-color;
 $site-nav-background-color  : #dddddd;
+$masthead-background        : $gray; /*url("../assets/images/bbfield.jpg");*/
+$nursery-background         : url("../assets/images/seedlings.jpg");
+$music-background           : url("../assets/images/fiddle.jpg");
+$goats-background           : url("../assets/images/kid.jpg");
 $body-color                 : #fff;
 $background-color           : #fff;
 $code-background-color      : #fafafa;

@@ -4,33 +4,57 @@ a {
     color: $text-color;
 }
 
-body {
-    max-width: 1200px;
-    margin: 0;
-    padding: 0;
-    background-repeat: no-repeat;
-    //background-size: cover; 
+// Phone portrait
+@media only screen and (max-width: 320px) {
+    body {
+        max-width: 300px;
+    }
 }
 
-@media screen only and (min-width: 480px) {
+// Phone landscape
+@media only screen and (min-width: 321px) and (max-width: 480px) {
     body {
-        max-width: 300;
+        max-width: 880px;
         margin: 0;
         padding: 0;
         background-repeat: no-repeat;
         background-size: cover; 
-        padding: 0;
-        padding-bottom:0; 
     }
 }
+
+// Desktop
+@media only screen and (min-width: 1024px) {
+    body {
+        background-size: cover;
+    }
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    padding-bottom: 0;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 // Masthead //
 
 .masthead {
     position: relative;
-    background: url("../assets/images/bbfield.jpg");
+    background: $masthead-background;
     background-size: 100%; 
     background-repeat: no-repeat;
+    img {
+        display: inline;
+        margin-bottom: 0em;
+    }
 }
 
 .site-title {
@@ -39,7 +63,7 @@ body {
     color: $site-title-color;
     text-decoration: none;
     background-color: none;
-    padding: 1em;
+    padding: .1em;
 }
 
 // Navigation //
