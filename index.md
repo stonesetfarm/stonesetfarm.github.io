@@ -12,4 +12,4 @@ We are open for seedling sales starting Wednesday, May 9, and will be open Wedne
 ## Cut Flowers
 We'll be growing some cut flowers this year and haven't quite figured out how they're going to make it to you. Perhaps a bucket-of-blooms CSA where subscribers would get, instead of an arranged bouquet, a mass of blooms to put together as they like. Think masses of zinnias across the color and texture spectrum, snapdragons of many colors, sweet peas spicing everything up. There are a lot of dahlias going into the ground here, so probably a dahlia CSA in the future.... However it shakes out, there will definitely be buckets of blooms here wanting to get to you, so stay tuned. 
 
-![seedling](/assets/images/seedling-400.jpg)
+![seedling](/assets/images/seedlings-outside.jpg)
