@@ -4,7 +4,7 @@ layout: page
 ---
 ## Welcome to Stoneset Farm
 ## Seedling Sales
-We are open for seedling sales starting Wednesday, May 9, and will be open Wednesdays 10-2, and Saturdays 9-5. We will be at the Stonington Farmers’ Market on Fridays this spring.
+We are open for seedling sales and will be open Wednesdays 10-2, and Saturdays 9-5. We will also be open Saturday, Sunday, and Monday of Memorial Day weekend. We will be at the Stonington Farmers’ Market on Fridays this spring.
 
 * [Veggies & Herbs](https://docs.google.com/document/u/2/d/1hokT20-DOiCzJk0jXILHkg_kjQ0xzQq65AMgC7nXAhg/edit?usp=sharing) 
 * [Flowers](https://docs.google.com/document/d/1qyVGsNIbC7q8dt_8I8ReOKof1tUur22lPl_BfGyGqt0/edit)
