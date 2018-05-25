@@ -11,6 +11,8 @@ So yes, plan on more rounds of lettuce and choi and tempting biennials and peren
 
 For your perusal here are the lists of veggies, herbs, and flowers that have been, or will be, started this season: 
 
+* [Veggies & Herbs](https://docs.google.com/document/u/2/d/1hokT20-DOiCzJk0jXILHkg_kjQ0xzQq65AMgC7nXAhg/edit?usp=sharing) 
+* [Flowers](https://docs.google.com/document/d/1qyVGsNIbC7q8dt_8I8ReOKof1tUur22lPl_BfGyGqt0/edit)
 
 Using sustainable methods and organic potting soil, we grow robust, bee-friendly vegetable seedlings as well as annual, biennial, and perennial flower starts. Some people ask why we aren't certified organic, and the answer really can be distilled down on the fact that (in her own words) paperwork is not one of Clara’s strongest points at this moment in time, and there’s a fair amount of paperwork to maintain certification.
 
