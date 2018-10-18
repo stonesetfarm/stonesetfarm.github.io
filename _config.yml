@@ -1,36 +1,76 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Site
+title:              Stoneset Farm
+bio:                'We are a family farm growing cut flowers, annual seedlings, garlic, and heritage livestock on the coast of Maine. Visit our Facebook page for information and product inquiries.'
+description:        "Stoneset Farm is a family farm raising seedlings, garlic, and livestock in Brooklin, Maine."
+reading_time:       false
+words_per_minute:   200
+logo:               'assets/img/ssf_logo.gif'
+background:         'assets/img/flowers.jpg'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Stoneset Farm
-email: nerutenbeck@gmail.com
-description: Stoneset Farm is the home of the Rutenbeck family and our many projects. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://stonesetfarm.com" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: nerutenbeck
-twitter_username: nerutenbeck
-github_username: nerutenbeck 
-linkedin_username: nerutenbeck
-facebook_username: stonesetfarm
-# Build settings
-include: ["_pages"]
-markdown: kramdown
-sass: 
-  sass_dir: _sass
-  style: compressed
-plugins:
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+#disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#google:
+  #plus:            #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+#email:
+#twitter:            nerutenbeck
+facebook:           stonesetfarm
+#github-url:         nerutenbeck
+#stackoverflow:     1977758
+#linkedin:          username
+#xing:              username
+#instagram:          wild_blueberry_mama
+#lastfm:            username
+#tumblr:            username
+#medium:            '@username'
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#youtube-channel:   channel
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+
+# Gems
+gems:
+  - jekyll-mentions
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
